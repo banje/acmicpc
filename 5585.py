@@ -1,0 +1,24 @@
+a=int(input())
+b=1000-a
+c=0
+if b>=500:
+    b=b-500
+    c=c+1
+while b>=100:
+    d=b//100
+    b=b-d*100
+    c=c+d
+while b>=50:
+    d=b//50
+    b=b-d*50
+    c=c+d
+while b>=10:
+    d=b//10
+    b=b-d*10
+    c=c+d
+while b>=5:
+    d=b//5
+    b=b-d*5
+    c=c+d
+c=c+b
+print(c)

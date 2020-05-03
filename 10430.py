@@ -1,0 +1,5 @@
+a,b,c=input().split()
+print("{}".format((int(a)+int(b))%int(c)))
+print("{}".format((int(a)%int(c)+int(b)%int(c))%int(c)))
+print("{}".format((int(a)*int(b))%int(c)))
+print("{}".format(((int(a)%int(c))*(int(b)%int(c)))%int(c)))

@@ -1,0 +1,6 @@
+a=input().split()
+b=int(a[1])
+c=int(a[2])
+d=int(a[3])
+a=int(a[0])
+print(min(a,b,c-a,d-b))

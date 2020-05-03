@@ -1,0 +1,9 @@
+a=list(map(int,input().split()))
+b=list(map(int,input().split()))
+c=[]
+c.append(a[0]/b[0]+a[1]/b[1])
+c.append(b[0]/b[1]+a[0]/a[1])
+c.append(b[1]/a[1]+b[0]/a[0])
+c.append(a[1]/a[0]+b[1]/b[0])
+d=max(c)
+print(c.index(d))
